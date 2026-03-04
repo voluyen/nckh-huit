@@ -1,0 +1,9 @@
+Lưu ý mô hình tts: cần tải đầy đủ và chỉnh sửa lại đường dẫn của trong file để chạy thành công 
+với dataset 2 : https://huggingface.co/datasets/google/fleurs/tree/main/data/vi_vn
+vói dataset 1 : https://huggingface.co/datasets/AILAB-VNUHCM/vivos/tree/main/data 
+với model pnnBao cần tải(lưu ý đường dẫn trong file benchmark để tải về đúng vị trí): 
+- https://github.com/pnnbao97/VieNeu-TTS
+-https://huggingface.co/pnnbao-ump/VieNeu-TTS/tree/main 
+với model thanhtantran 
+- https://github.com/thanhtantran/VieNeu-TTS
+-https://huggingface.co/thanhtantran/VieNeu-TTS/tree/main
