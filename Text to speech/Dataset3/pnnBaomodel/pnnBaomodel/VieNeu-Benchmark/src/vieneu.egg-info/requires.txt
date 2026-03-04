@@ -1,0 +1,26 @@
+phonemizer>=3.3.0
+neucodec>=0.0.4
+librosa>=0.11.0
+gradio>=5.49.1
+onnxruntime>=1.23.2
+datasets>=3.2.0
+torch
+torchaudio
+perth>=0.2.0
+llama-cpp-python==0.3.16
+requests
+
+[gpu]
+
+[gpu:sys_platform != "darwin"]
+lmdeploy
+
+[gpu:sys_platform == "darwin"]
+transformers
+accelerate
+
+[gpu:sys_platform == "linux"]
+triton
+
+[gpu:sys_platform == "win32"]
+triton-windows
